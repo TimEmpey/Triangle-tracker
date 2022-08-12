@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html land="en-US">
   <head>
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text.css">
     <script src="js/scripts.js"></script>
     <title>Triangle Tracker</title>
   </head>
   <body>
     <h1>Is it a Triangle?</h1>
     <form id="userInput">
-      <label for="num1Input">Enter the length of side #1</label>
-      <input id="num1Input" type="text" name="num1Input">
-      <label for="num2Input">Enter the length of side #2</label>
-      <input id="num2Input" type="text" name="num1Input">
-      <label for="num3Input">Enter the length of side #3</label>
-      <input id="num3Input" type="text" name="num1Input">
+      <label for="num1Input">Enter the length of side #1:
+        <input id="num1Input" type="text" name="number">
+      </label>
+      <label for="num2Input">Enter the length of side #2:
+        <input id="num2Input" type="text" name="number">
+      </label>
+      <label for="num3Input">Enter the length of side #3:
+        <input id="num3Input" type="text" name="number">
+      </label>
       <button type="submit">Submit</button>
     </form>
-    <div id="answer" class="hidden">
       <h1>Your lines are make a...</h1>
       <p id="output"></p>
-    </div>
   </body>
 </html>
